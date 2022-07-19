@@ -1,19 +1,19 @@
-variable "release_name" {
+variable "dd_release_name" {
   type        = string
   description = "Release Name of This Chart"
 }
 
-variable "release_namespace" {
+variable "dd_release_namespace" {
   type        = string
   description = "Namespace To Install This Chart"
 }
 
-variable "chart_repo" {
+variable "dd_chart_repo" {
   type        = string
   description = "Chart Repository"
 }
 
-variable "chart" {
+variable "dd_chart" {
   type        = string
   description = "Helm Chart"
 }
@@ -23,12 +23,12 @@ variable "datadog_networkMonitoring_enabled " {
   type        = bool
 }
 
-variable "clusterAgent_replicas" {
+variable "dd_clusterAgent_replicas" {
   description = ""
   type        = number
 }
 
-variable "clusterAgent_createPodDisruptionBudget" {
+variable "dd_clusterAgent_createPodDisruptionBudget" {
   description = ""
   type        = bool
 }
