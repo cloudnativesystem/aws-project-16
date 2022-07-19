@@ -1,21 +1,21 @@
 
 variable "release_name" {
-  type        = "string"
+  type        = string
   description = "Release Name of This Chart"
 }
 
 variable "release_namespace" {
-  type        = "string"
+  type        = string
   description = "Namespace To Install This Chart"
 }
 
 variable "chart_repo" {
-  type        = "string"
+  type        = string
   description = "Chart Repository"
 }
 
 variable "chart" {
-  type        = "string"
+  type        = string
   description = "Helm Chart"
 }
 
