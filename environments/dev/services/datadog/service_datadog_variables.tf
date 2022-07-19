@@ -18,7 +18,7 @@ variable "dd_chart" {
   description = "Helm Chart"
 }
 
-variable "datadog_networkMonitoring_enabled " {
+variable "datadog_networkMonitoring_enabled" {
   description = ""
   type        = bool
 }
