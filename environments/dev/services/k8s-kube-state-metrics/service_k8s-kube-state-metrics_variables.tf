@@ -1,20 +1,20 @@
 
-variable "release_name" {
+variable "ksm_release_name" {
   type        = string
   description = "Release Name of This Chart"
 }
 
-variable "release_namespace" {
+variable "ksm_release_namespace" {
   type        = string
   description = "Namespace To Install This Chart"
 }
 
-variable "chart_repo" {
+variable "ksm_chart_repo" {
   type        = string
   description = "Chart Repository"
 }
 
-variable "chart" {
+variable "ksm_chart" {
   type        = string
   description = "Helm Chart"
 }

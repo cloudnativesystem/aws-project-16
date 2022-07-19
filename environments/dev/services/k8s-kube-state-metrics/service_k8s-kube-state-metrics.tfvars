@@ -2,16 +2,16 @@
 # service_kube-state-metrics.tfvars
 
 #
-release_name = "kube-state-metrics"
+ksm_release_name = "kube-state-metrics"
 
 #
-release_namespace = "kube-system"
+ksm_release_namespace = "kube-system"
 
 #
-chart_repo = "https://vdigitalpartners.github.io/helm-charts"
+ksm_chart_repo = "https://vdigitalpartners.github.io/helm-charts"
 
 #
-chart = "kube-state-metrics"
+ksm_chart = "kube-state-metrics"
 
 #----------------------------------------------------------------------------------
 

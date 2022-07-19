@@ -1,8 +1,8 @@
 
 resource "helm_release" "kube-state-metrics" {
-  name       = var.release_name
-  namespace  = var.release_namespace
-  repository = var.chart_repo
-  chart      = var.chart
+  name       = var.ksm_release_name
+  namespace  = var.ksm_release_namespace
+  repository = var.ksm_chart_repo
+  chart      = var.ksm_chart
 }
 
