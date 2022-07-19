@@ -1,11 +1,11 @@
 output "metrics_server_manifest" {
-  value = metrics-server.manifest
+  value = helm_release.metrics-server.manifest
 }
 
 output "metrics_server_status" {
-  value = metrics-server.metadata.status
+  value = helm_release.metrics-server.metadata.status
 }
 
 output "metrics_server_version" {
-  value = metrics-server.metadata.version
+  value = helm_release.metrics-server.metadata.version
 }
