@@ -1,4 +1,5 @@
 # vpc_main.tf
+/*
 module "vpc" {
 
   source = "../../modules/vpc"
@@ -17,4 +18,4 @@ module "vpc" {
   tags = var.common_tags
 
   vpc_tags = var.vpc_tags
-}
+}*/
